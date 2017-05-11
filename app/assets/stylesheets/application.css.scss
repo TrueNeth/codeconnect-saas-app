@@ -30,8 +30,8 @@ h1, h2, h3 {
 .navbar, .home-callout {
     //Gradient provided by @_ighosh at uiGradients.com
     background: #1D976C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #1D976C, #93F9B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D976C, #93F9B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -53,6 +53,18 @@ h1, h2, h3 {
         opacity: 0.75;
     }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+   border: 2px solid white;
+   &:hover, &:focus {
+       background-color: #93F9B9;
+   }
+}
+
 
 // Homepage Styles
 .home-callout {
